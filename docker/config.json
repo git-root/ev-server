@@ -37,7 +37,7 @@
     "passwordBlockedWaitTimeMin": 5,
     "captchaSecretKey": "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe",
     "captchaScore": 0.25,
-    "debug": false
+    "debug": true 
   },
   "CentralSystemFrontEnd": {
     "protocol": "http",
@@ -84,7 +84,7 @@
     "database": "evse",
     "poolSize": 200,
     "replicaSet": "rs0",
-    "debug": false
+    "debug": true 
   },
   "Axios": {
     "retries": 0,
@@ -120,7 +120,7 @@
     }
   },
   "Authorization": {
-    "debug": false
+    "debug": true 
   },
   "ChargingStation": {
     "heartbeatIntervalOCPPSSecs": 180,
@@ -261,8 +261,8 @@
     ]
   },
   "Trace": {
-    "traceIngressHttp": false,
-    "traceEgressHttp": false,
+    "traceIngressHttp": true,
+    "traceEgressHttp": true,
     "traceOcpp": false,
     "traceDatabase": false,
     "traceNotification": false
