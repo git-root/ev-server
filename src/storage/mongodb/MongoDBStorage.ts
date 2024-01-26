@@ -276,6 +276,7 @@ export default class MongoDBStorage {
         uri.options.replicaSet = this.dbConfig.replicaSet;
       }
       mongoUrl = mongoUriBuilder(uri);
+      Logging.logConsoleDebug(`Mongo URI: '${mongoUrl}' ...`)
     }
     // Connect to EVSE
     Logging.logConsoleDebug(`Connecting to '${mongoUrl}'`);
