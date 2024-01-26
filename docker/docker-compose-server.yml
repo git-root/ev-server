@@ -27,5 +27,6 @@ services:
       ev_network:
         aliases:
         - ev_server
+        - server
     extra_hosts:
     - ev_server:127.0.0.1
